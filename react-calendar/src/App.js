@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="text-center">React Calendar</h1>
-      <div className="calendar-container">
+      <div className="calendar-container d-flex justify-content-center">
         <Calendar onChange={setDate} value={date} />
       </div>
       <p className="text-center">
