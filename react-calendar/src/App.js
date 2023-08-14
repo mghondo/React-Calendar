@@ -7,6 +7,7 @@ import FirstCalComponent from "./components/FirstCalComponent";
 import RangeCalComponent from "./components/RangeCalComponent";
 import DefaultValueComponent from "./components/DefaultValueComponent";
 import DecadeView from "./components/DecadeView";
+// import DisableSelectTiles from "./components/DisableSelectTiles";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <DefaultValueComponent />
       <br />
       <DecadeView />
+      <br />
+      {/* <DisableSelectTiles /> */}
     </div>
   );
 }

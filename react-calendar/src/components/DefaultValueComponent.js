@@ -15,6 +15,7 @@ const DefaultValueComponent = () => {
         <h1 className="text-center">Enabling Default Value</h1>
         <div className="calendar-container d-flex justify-content-center">
           <Calendar onChange={setDate} selectRange={true} defaultValue={date} />
+          {/* <span className="bold">Selected Date: {date}</span> */}
         </div>
       </div>
     </div>

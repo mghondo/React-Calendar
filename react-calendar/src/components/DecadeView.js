@@ -9,8 +9,14 @@ const DecadeView = () => {
     <div>
       <h1 className="text-center">Decade View</h1>
       <div className="calendar-container d-flex justify-content-center">
-        <Calendar onChange={setDate} selectRange={true} defaultView="decade" />
+        <Calendar
+          value={date}
+          onChange={setDate}
+          selectRange={true}
+          defaultView="decade"
+        />
       </div>
+      <span className="bold">Selected Year:</span> {date.getFullYear()}
     </div>
   );
 };
